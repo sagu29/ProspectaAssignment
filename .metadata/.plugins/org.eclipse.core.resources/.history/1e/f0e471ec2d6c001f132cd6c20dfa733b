@@ -1,0 +1,5 @@
+package com.propsecta.entity;
+
+public class Product {
+
+}

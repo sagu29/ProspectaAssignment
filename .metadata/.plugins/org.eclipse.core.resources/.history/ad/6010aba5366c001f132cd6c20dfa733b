@@ -1,0 +1,21 @@
+package com.propsecta.service;
+
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.propsecta.entity.Product;
+
+@Service
+public class ProductService {
+	
+	private final RestTemplate restTemplate = new RestTemplate();
+    
+    public Product getProductCategory() {
+    	return restTemplate.getForObject("https://fakestoreapi.com/products/category/", Product.class);
+    }
+    
+    
+    
+
+}

@@ -1,0 +1,8 @@
+package com.propsecta.entity;
+
+public class Rating {
+
+	
+	private double rate;
+    private int count;
+}
