@@ -91,8 +91,8 @@ public class CSVFormulaEvaluator {
         try {
             // Use the JavaScript engine to evaluate arithmetic expressions
             ScriptEngine engine = new ScriptEngineManager().getEngineByName("JavaScript");
-            Object result = engine.eval(expression);  // Evaluate the expression
-            return Double.parseDouble(result.toString());  // Convert result to Double
+            Object result = engine.eval(expression);  
+            return Double.parseDouble(result.toString());  
         } catch (Exception e) {
             throw new RuntimeException("Error evaluating expression: " + expression, e);
         }
@@ -112,10 +112,8 @@ public class CSVFormulaEvaluator {
 
     public static void main(String[] args) {
         try {
-            // Initialize the evaluator with the input CSV file
             CSVFormulaEvaluator evaluator = new CSVFormulaEvaluator("C:\\Users\\ACCESS INFO\\Desktop\\CSV\\exampleInput.csv");
 
-            // Evaluate the entire sheet
             evaluator.evaluateSheet();
 
             // Write the evaluated results to a new output CSV file
