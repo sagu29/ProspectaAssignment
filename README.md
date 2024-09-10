@@ -30,8 +30,53 @@ This API retrieves all products for a given category from FakeStoreAPI.
 
 #### Example Request
 
-``http
+##### http
 GET http://localhost:8080/products/category/jewelery
+
+### Expected Output 
+
+  {
+    "id": 5,
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": 695,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 6,
+    "title": "Solid Gold Petite Micropave",
+    "price": 168,
+    "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
+  }
+
+##### http
+POST http://localhost:8080/products/
+
+{
+  "id": 21,
+  "title": "Laptop",
+  "price": 199999.99,
+  "description": "This is a brand new laptop.",
+  "category": "electronics",
+  "image": "[https://ex.com/image.jp](https://www.energy.gov/sites/default/files/styles/full_article_width/public/computer%20tablet%20phone.jpg?itok=LZwHFtY_)",
+  "rating": {
+    "rate": 0,
+    "count": 0
+  }
+}
+
+
 
 # CSV Formula Evaluator
 
