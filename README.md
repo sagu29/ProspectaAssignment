@@ -33,7 +33,7 @@ This API retrieves all products for a given category from FakeStoreAPI.
 ##### http
 GET http://localhost:8080/products/category/jewelery
 
-### Expected Output 
+###### Expected Output 
 
   {
     "id": 5,
@@ -61,6 +61,9 @@ GET http://localhost:8080/products/category/jewelery
   }
 
 ##### http
+
+###### Expected Output 
+
 POST http://localhost:8080/products/
 
 {
