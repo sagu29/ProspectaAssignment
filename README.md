@@ -24,14 +24,14 @@ This project demonstrates the integration of Spring Boot with [FakeStoreAPI](htt
 
 ### 1. List Products by Category
 
-**Endpoint**: `GET /api/v1/products/category/{category}`
+**Endpoint**: `GET products/category/{category}`
 
 This API retrieves all products for a given category from FakeStoreAPI.
 
 #### Example Request
 
 ``http
-GET http://localhost:8080/api/v1/products/category/jewelery
+GET http://localhost:8080/products/category/jewelery
 
 # CSV Formula Evaluator
 
