@@ -69,7 +69,7 @@ POST http://localhost:8080/products/
   "price": 199999.99,
   "description": "This is a brand new laptop.",
   "category": "electronics",
-  "image": "[https://ex.com/image.jp](https://www.energy.gov/sites/default/files/styles/full_article_width/public/computer%20tablet%20phone.jpg?itok=LZwHFtY_)",
+  "image": "[(https://www.energy.gov/sites/default/files/styles/full_article_width/public/computer%20tablet%20phone.jpg?itok=LZwHFtY_)]",
   "rating": {
     "rate": 0,
     "count": 0
