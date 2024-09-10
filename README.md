@@ -60,11 +60,11 @@ GET http://localhost:8080/products/category/jewelery
     }
   }
 
-##### http
-
-###### Expected Output 
+##### http 
 
 POST http://localhost:8080/products/
+
+###### Expected Output 
 
 {
   "id": 21,
